@@ -32,7 +32,7 @@ else:
 
 ADMIN_URL = config('ADMIN_URL')
 
-ALLOWED_HOSTS = ['alameen-shop.onrender.com', '.onrender.com']
+ALLOWED_HOSTS = ['alameen-shop.onrender.com', '.onrender.com', '127.0.0.1']
 
 
 # Application definition
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',
+    'drf_yasg',
 
     'account',
     'order',
