@@ -5,6 +5,11 @@ set -o errexit
 # Install libraries
 pip install -r requirements.txt
 
+
 # Convert static files
 python manage.py collectstatic --no-input
+
+python manage.py migrate
+python manage.py initadmin
+
 
