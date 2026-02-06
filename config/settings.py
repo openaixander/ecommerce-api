@@ -32,7 +32,7 @@ else:
 
 ADMIN_URL = config('ADMIN_URL')
 
-ALLOWED_HOSTS = ['https://alameen-shop.onrender.com']
+ALLOWED_HOSTS = ['alameen-shop.onrender.com', '.onrender.com']
 
 
 # Application definition
